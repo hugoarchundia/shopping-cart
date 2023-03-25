@@ -22,7 +22,7 @@ const CartItem = ({ id, quantity }: CartItemProps) => {
       />
       <div className='me-auto'>
         <div>
-          {item.name}
+          {item.name}{' '}
           {quantity > 1 && (
             <span className='text-muted' style={{ fontSize: '0.65rem' }}>
               x{quantity}
